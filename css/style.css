@@ -2,6 +2,7 @@ body{
   background-color: #577399;
   color: #495867;
   padding: 10%;
+  font-weight: bold;
 }
 
 h1{
@@ -17,8 +18,9 @@ h3{
 
 #main-navbar{
   position: relative;
-  width: 100%;
   float: left;
+  width: 100%;
+  height: 15%;
   background-color: #FE5F55;
   padding: 2%;
   margin-top: 5%;
@@ -29,6 +31,10 @@ h3{
 #navbar-container{
   position: relative;
   border-radius: 25px;
+  float: left;
+  width: 100%;
+  left: 50%;
+  align: center;
 }
 
 #main-navbar ul{
@@ -48,15 +54,20 @@ h3{
 
 #main-navbar ul li a{
   display: block;
-  padding: 2%;
+  padding: 0;
   color: #F7F7FF;
-  width: 30%;
   text-decoration: none;
+  align-content: center;
 
 }
 
 #main-navbar ul li a:hover{
-  text-decoration: underline;
+  border-color: #495867;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+  background-color: #F7F7FF;
+  color: #FE5F55;
   font-weight: bold;
 }
 
@@ -66,14 +77,24 @@ img{
 
 .textbox{
   background-color: #BDD5EA;
+  border-color: #FE5F55;
   border-radius: 25px;
-  padding: 20px;
+  border-width: medium;
+  border-style: solid;
+  padding: 5%;
   width: 80%;
   height: auto;
 }
 
 .caption{
-
+  color: #F7F7FF;
+  background-color:#495867;
+  border-color: #BDD5EA;
+  border-radius: 25px;
+  border-width: medium;
+  border-style: solid;
+  padding: 5%;
+  font-weight: normal;
 }
 
 .artimg{
