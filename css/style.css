@@ -6,7 +6,9 @@ body{
 
 h1{
   color: #F7F7FF;
-
+  padding-top: 20%;
+  margin-top: 20%;
+  vertical-align: center;
 }
 
 h3{
@@ -18,20 +20,21 @@ h3{
   width: 100%;
   float: left;
   background-color: #FE5F55;
+  padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   border-radius: 25px;
 }
 
 #navbar-container{
   position: relative;
-  padding: 5%;
-  align-content: center;
+  border-radius: 25px;
 }
 
 #main-navbar ul{
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center;
   overflow: hidden;
   position: relative;
 }
@@ -39,13 +42,15 @@ h3{
 #main-navbar ul li{
   display: block;
   float: left;
+  align-content: center;
   padding: 5%;
 }
 
 #main-navbar ul li a{
   display: block;
-  padding: 5%;
+  padding: 2%;
   color: #F7F7FF;
+  width: 30%;
   text-decoration: none;
 
 }
@@ -69,4 +74,9 @@ img{
 
 .caption{
 
+}
+
+.artimg{
+  width: 80%;
+  align: center;
 }
