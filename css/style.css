@@ -2,14 +2,16 @@ body{
   background-color: #577399;
   color: #495867;
   padding: 10%;
-  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
 }
 
 h1{
   color: #F7F7FF;
-  padding-top: 20%;
   margin-top: 20%;
   vertical-align: center;
+  align: center;
+  width: 100%;
 }
 
 h3{
@@ -18,7 +20,6 @@ h3{
 
 #main-navbar{
   position: relative;
-  float: left;
   width: 100%;
   height: 15%;
   background-color: #FE5F55;
@@ -31,9 +32,7 @@ h3{
 #navbar-container{
   position: relative;
   border-radius: 25px;
-  float: left;
   width: 100%;
-  left: 50%;
   align: center;
 }
 
@@ -47,7 +46,6 @@ h3{
 
 #main-navbar ul li{
   display: block;
-  float: left;
   align-content: center;
   padding: 5%;
 }
@@ -71,8 +69,8 @@ h3{
   font-weight: bold;
 }
 
-img{
-  border-radius: 10px;
+img {
+  align: center;
 }
 
 .textbox{
@@ -82,8 +80,8 @@ img{
   border-width: medium;
   border-style: solid;
   padding: 5%;
-  width: 80%;
   height: auto;
+
 }
 
 .caption{
@@ -93,11 +91,17 @@ img{
   border-radius: 25px;
   border-width: medium;
   border-style: solid;
-  padding: 5%;
+  border-top-width: thick;
+  padding: 2%;
+  align: center;
+  min-width: 500px;
   font-weight: normal;
 }
 
-.artimg{
-  width: 80%;
-  align: center;
+.sizechange{
+  width: 90%;
+}
+
+.nochange{
+  width: 500px;
 }
