@@ -4,6 +4,10 @@ body{
   padding: 10%;
   font-family: 'Abril Fatface', cursive;
   text-align: center;
+  background-image: url("../cloud.png");
+  background-size: 30%;
+  background-repeat: repeat;
+  background-blend-mode: multiply;
 }
 
 h1{
@@ -19,43 +23,39 @@ h3{
 }
 
 #main-navbar{
-  position: relative;
-  width: 100%;
-  height: 15%;
   background-color: #FE5F55;
-  padding: 2%;
-  margin-top: 5%;
-  margin-bottom: 5%;
   border-radius: 25px;
+  border-style: dotted;
+  border-color: #495867;
+  border-width: thick;
+  overflow: hidden;
+  background-image: url("../fluffy.png");
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 #navbar-container{
   position: relative;
-  border-radius: 25px;
   width: 100%;
-  align: center;
+  text-align: center;
 }
 
 #main-navbar ul{
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+  margin: 5%;
+  display: inline-block;
 }
 
 #main-navbar ul li{
-  display: block;
-  align-content: center;
-  padding: 5%;
+  float: left;
 }
 
 #main-navbar ul li a{
   display: block;
-  padding: 0;
   color: #F7F7FF;
   text-decoration: none;
-  align-content: center;
+  padding: 20px 30px;
+  font-size: x-large;
 
 }
 
@@ -71,6 +71,7 @@ h3{
 
 img {
   align: center;
+  border-radius: 25px;
 }
 
 .textbox{
@@ -81,7 +82,9 @@ img {
   border-style: solid;
   padding: 5%;
   height: auto;
-
+  background-image: url("../fluffy.png");
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .caption{
@@ -96,6 +99,9 @@ img {
   align: center;
   min-width: 500px;
   font-weight: normal;
+  background-image: url("../fluffy.png");
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .sizechange{
