@@ -95,9 +95,9 @@ img {
   border-width: medium;
   border-style: solid;
   border-top-width: thick;
-  padding: 2%;
-  align: center;
-  min-width: 500px;
+  padding: 10px;
+  text-align: center;
+  min-width: 400px;
   font-weight: normal;
   background-image: url("../fluffy.png");
   background-blend-mode: multiply;
