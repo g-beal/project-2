@@ -4,7 +4,7 @@ body{
   padding: 10%;
   font-family: 'Abril Fatface', cursive;
   text-align: center;
-  background-image: url("../cloud.png");
+  background-image: url("../photos/cloud.png");
   background-size: 30%;
   background-repeat: repeat;
   background-blend-mode: multiply;
@@ -28,7 +28,7 @@ h3{
   border-color: #495867;
   border-width: thick;
   overflow: hidden;
-  background-image: url("../fluffy.png");
+  background-image: url("../photos/fluffy.png");
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -80,7 +80,7 @@ img {
   border-style: solid;
   padding: 5%;
   height: auto;
-  background-image: url("../fluffy.png");
+  background-image: url("../photos/fluffy.png");
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -97,7 +97,7 @@ img {
   text-align: center;
   min-width: 400px;
   font-weight: normal;
-  background-image: url("../fluffy.png");
+  background-image: url("../photos/fluffy.png");
   background-blend-mode: multiply;
   background-size: cover;
 }
