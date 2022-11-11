@@ -1,5 +1,6 @@
 body{
   background-color: #577399;
+  position: relative;
   color: #495867;
   padding: 10%;
   font-family: 'Abril Fatface', cursive;
@@ -80,6 +81,7 @@ img {
   border-style: solid;
   padding: 5%;
   height: auto;
+  text-align: center;
   background-image: url("../photos/fluffy.png");
   background-blend-mode: multiply;
   background-size: cover;
@@ -93,9 +95,8 @@ img {
   border-width: medium;
   border-style: solid;
   border-top-width: thick;
-  padding: 10px;
-  text-align: center;
-  min-width: 400px;
+  padding: 20px;
+  position: relative;
   font-weight: normal;
   background-image: url("../photos/fluffy.png");
   background-blend-mode: multiply;
@@ -103,9 +104,13 @@ img {
 }
 
 .sizechange{
-  width: 90%;
+  width: 350px;
+  display: block;
+  float: left;
+  padding: 10px;
 }
 
 .nochange{
   width: 500px;
+  position: relative;
 }
